@@ -10,6 +10,8 @@ Windows freeware for monitoring and controlling local network bandwidth usage. O
 bin/                  Application and required libraries
   SelfishNet.exe      Main program (formerly SelfishNetv0.2-beta_vista.exe)
   *.dll, npf.sys      WinPcap / UI dependencies
+deps/
+  WinPcap_4_1_3.exe   Required WinPcap 4.1.3 installer
 docs/
   help.html           Licenses, credits, and support contacts
   release-notes.txt   Changelog
@@ -21,12 +23,16 @@ README.md             This file
 
 - Windows XP or Windows Vista (this build is not for Windows Server 2003)
 - Administrator rights recommended for packet capture
+- **[WinPcap 4.1.3](deps/WinPcap_4_1_3.exe)** (`WinPcap_4_1_3.exe`) — install this before running SelfishNet
+
+You can also download WinPcap 4.1.3 from the official site: https://www.winpcap.org/install/
 
 ## How to run
 
-1. Open the `bin` folder.
-2. Run `SelfishNet.exe`.
-3. Keep the DLLs and `npf.sys` beside the executable; they are required at runtime.
+1. Install WinPcap from [`deps/WinPcap_4_1_3.exe`](deps/WinPcap_4_1_3.exe) (reboot if the installer asks).
+2. Open the `bin` folder.
+3. Run `SelfishNet.exe`.
+4. Keep the DLLs and `npf.sys` beside the executable; they are required at runtime.
 
 ## Credits
 
