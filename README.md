@@ -3,7 +3,7 @@
 Windows freeware for monitoring and controlling local network bandwidth usage. Originally released by Creadev.net (2007). This package is the v0.2 beta Vista/XP build.
 
 > **Note:** Use only on networks you own or have permission to manage. Misuse may violate network policies or law.
-
+> **Note:** I did not create this program, I am only posting it here as a way to preserve it.
 ## Layout
 
 ```
